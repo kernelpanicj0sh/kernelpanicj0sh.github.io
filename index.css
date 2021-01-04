@@ -1,22 +1,24 @@
 .splash
 {
-    display:table;
-    padding-right: 50px;
-    padding-left: 60px;
+    display: block;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .splash-image
 {
 padding-left: 0px;
+padding-right: 0px;
 display:table-cell;
-vertical-align:top;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+vertical-align: middle;
+
   }
-.splash-image,.login-form {
+.login-form {
   display:table-cell;
   vertical-align:top;
   margin-left: auto;
   margin-right: auto;
+
 
   width: 100%;
    border-radius: 8px;
@@ -26,10 +28,10 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .login-form {
   text-align: left;
-  padding: 90px 90px;
+  padding: 10px 10px;
   font-family: "monospace";
   font-size: 10px;
-  width: 100%;
+  width: 50%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
