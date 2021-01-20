@@ -7,7 +7,7 @@
 }
 
 .container {
- height: 100vh;
+ height:auto;
  width: 100%;
  background-image: url(/media/images/background.jpg);
  background-size:cover;
@@ -17,7 +17,7 @@ box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.877);
 padding-left: 5%;
 padding-right: 5%;
 box-sizing: border-box;
-position:sticky;
+position:relative;
 background-attachment: fixed;
 
 
@@ -99,7 +99,7 @@ nav ul li a{
 .social-links {
 
     transform: rotate(-90deg);
-    position: absolute;
+    position:fixed;
     left: -80px;
     bottom: 180px; 
 }
