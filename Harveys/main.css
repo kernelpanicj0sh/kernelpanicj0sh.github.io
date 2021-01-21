@@ -98,11 +98,13 @@ nav ul li a{
 }
 
 .social-links {
-
     transform: rotate(-90deg);
     position:fixed;
     left: -80px;
-    bottom: 180px; 
+    bottom: 180px;
+    padding-left: 10px;
+padding-right: 20px; 
+
 }
 
 .social-links a{
@@ -117,14 +119,14 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-    animation: text-shadow 1.5s ease-in-out infinite;
+    animation: text-shadow 6.0s ease-in-out both;
     font-size: 5em;
     font-weight: 900;
     line-height: 1;
 }
 
 h1:hover {
-    animation-play-state: paused;
+    animation-play-state:running;
 }
 
 a {
@@ -132,6 +134,7 @@ a {
 }
 
 a:hover {
+    color: rgb(214, 10, 180);
     text-decoration: none;
 }
 
