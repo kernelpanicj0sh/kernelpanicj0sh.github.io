@@ -1,0 +1,193 @@
+* {
+
+  margin: 0%;
+  padding: 0%;
+
+
+}
+
+.container {
+ height:auto;
+ width: 100%;
+ background: linear-gradient(207deg, rgba(9,179,169,1) 0%, rgba(38,232,220,1) 26%);
+ background-size:cover;
+ background-position: center;
+background-repeat: no-repeat;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position:relative;
+background-attachment: fixed;
+
+
+}
+
+.navbar {
+    
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 200px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    padding-top: 5%;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.content p{
+    font-size: 20px;
+    
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.content {
+    padding-left: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn{
+
+    display: inline-block;
+    background: linear-gradient(45deg, #26E8DC, #20878f);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(255, 255, 255, 0.877);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.social-links {
+    transform: rotate(-90deg);
+    position:fixed;
+    left: -80px;
+    bottom: 180px;
+    padding-left: 10px;
+padding-right: 25px; 
+
+}
+
+.social-links a{
+
+text-decoration: none;
+color: white;
+padding-left: 10px;
+padding-right: 20px;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+.container2 {
+    height:auto;
+    width: 100%;
+    background-color: #20878f;
+    background-size:cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   box-shadow:inset 0 0 0 2000px rgba(27, 27, 27, 0.692);
+   padding-left: 5%;
+   padding-right: 5%;
+   box-sizing: border-box;
+   position:relative;
+   background-attachment:inherit;
+}
+.content2 h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.content2 p{
+    font-size: 20px;
+    
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.content2 {
+    padding-left: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content2 .btn{
+
+    display: inline-block;
+    background: linear-gradient(45deg, #26E8DC, #20878f);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(255, 255, 255, 0.877);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+input[type=text]{
+    border: 2px solid blue;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+
+  }
+  input[type=password]{
+    border: 2px solid blue;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+
+  }
+
+  .feature-img {
+      height:85%;
+      width:auto;
+      position:fixed;
+      bottom:0;
+      right: 160px;
+  }
