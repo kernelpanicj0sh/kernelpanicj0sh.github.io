@@ -191,3 +191,21 @@ input[type=text]{
       bottom:0;
       right: 160px;
   }
+  
+  .QR {
+
+    border: 10px solid white;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(255, 255, 255), 10px 10px rgb(0, 255, 255), 15px 15px rgb(4, 238, 255);
+  
+  }
+
+  .QR img {
+
+    border: 10px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(255, 255, 255), 10px 10px rgb(0, 255, 255), 15px 15px rgb(4, 238, 255);
+  
+  }
