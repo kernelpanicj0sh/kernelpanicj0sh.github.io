@@ -192,16 +192,9 @@ input[type=text]{
       right: 160px;
   }
   
-  .QR {
-
-    border: 10px solid white;
-    padding: 5px;
-    border-radius: 25px;
-    box-shadow: 5px 5px rgb(255, 255, 255), 10px 10px rgb(0, 255, 255), 15px 15px rgb(4, 238, 255);
   
-  }
 
-  .QR img {
+  .row img {
 
     border: 10px solid white;
     padding: 15px;
@@ -209,3 +202,34 @@ input[type=text]{
     box-shadow: 5px 5px rgb(255, 255, 255), 10px 10px rgb(0, 255, 255), 15px 15px rgb(4, 238, 255);
   
   }
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .column {
+    float: center;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear:center;
+    display:flex;
+    float: center;
+  }
+  
