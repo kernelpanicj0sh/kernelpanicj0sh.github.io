@@ -1,0 +1,245 @@
+* {
+
+  margin: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
+
+
+
+}
+
+.container {
+ height:auto;
+ width: 100%;
+ background: linear-gradient(207deg, #ffffff 0%, rgb(255, 255, 255) 26%);
+ background-size:cover;
+ background-position: center;
+background-repeat: no-repeat;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position:relative;
+background-attachment: fixed;
+
+
+}
+
+.navbar {
+    
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    padding-top: 0%;
+    padding-left: 13%;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    padding-top: 5%;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.content p{
+    font-size: 14px;
+    
+    margin-top: 24px; 
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    padding-left: 20px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.content .btn{
+
+    display: inline-block;
+    background: linear-gradient(45deg, #020202, #5f5c5f);
+    padding: 6px 11px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 2px;
+
+}
+
+.social-links {
+    transform: rotate(-90deg);
+    position:fixed;
+    left: -80px;
+    bottom: 180px;
+    padding-left: 10px;
+padding-right: 25px; 
+
+}
+
+.social-links a{
+
+text-decoration: none;
+color: white;
+padding-left: 10px;
+padding-right: 20px;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+.container2 {
+    height:auto;
+    width: 100%;
+    background-color: #20888f00;
+    background-size:cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   padding-left: 5%;
+   padding-right: 5%;
+   box-sizing: border-box;
+   position:relative;
+   background-attachment:inherit;
+}
+.content2 h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.content2 p{
+    font-size: 20px;
+    
+    margin-top: 24px; 
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.content2 {
+    padding-left: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content2 .btn{
+
+    display: inline-block;
+    background: linear-gradient(45deg, #26E8DC, #20878f);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(255, 255, 255, 0.877);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+  .feature-img {
+     
+            position: absolute; right: 25%; top:5%;
+           
+      
+
+  }
+  
+  
+
+  .row img {
+
+    border: 10px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(255, 255, 255), 10px 10px rgb(0, 255, 255), 15px 15px rgb(4, 238, 255);
+  
+  }
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .column {
+    float: center;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear:center;
+    display:flex;
+    float: center;
+  }
+  
+  input[type=text]  {
+    margin-top: 10px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 10px 2px #e226e8;
+  }
+  input[type=password]  {
+    margin-top: 10px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 10px 2px #e226e8;
+  }
+
+  .pgp-setup[type=text]{
+    margin-top: 10px;
+    padding:100px;
+    border:0;
+    box-shadow:0 0 10px 2px #e226e8;
+  }
+  
+
+  
